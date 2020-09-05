@@ -5,7 +5,11 @@ import styles from './CountdownContainer.module.scss';
 
 const CountdownContainer = ({ targetDate, inactiveMessage }) => {
   const [countdown, setCountdown] = React.useState(() => getRemainingTime());
-  let active = countdown.milliseconds > 0;
+  const [active, setActive] = React.useState(() => {
+    return countdown.milliseconds > 0;
+  });
+
+  // let active = countdown.milliseconds > 0;
 
   useEffect(() => {
     const hasRemainingTime = () => {
@@ -14,7 +18,8 @@ const CountdownContainer = ({ targetDate, inactiveMessage }) => {
     };
 
     if (!hasRemainingTime()) {
-      active = false;
+      setActive(false);
+      // active = false;
       return;
     }
 
@@ -28,7 +33,8 @@ const CountdownContainer = ({ targetDate, inactiveMessage }) => {
       } = getRemainingTime();
 
       if (milliseconds < 0) {
-        active = false;
+        setActive(false);
+        // active = false;
         clearInterval(interval);
       } else {
         setCountdown({ days, hours, minutes, seconds, milliseconds });
@@ -36,7 +42,7 @@ const CountdownContainer = ({ targetDate, inactiveMessage }) => {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [getRemainingTime]);
 
   function getRemainingTime() {
     const countDownDate = new Date(targetDate).getTime();
