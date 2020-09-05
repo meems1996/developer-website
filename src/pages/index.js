@@ -77,13 +77,8 @@ const IndexPage = ({ data, pageContext }) => {
                 efficiently.
               </p>
               <Countdown
-<<<<<<< HEAD
-                targetDate="August 30 2020 13:35:00"
-                inactiveMessage="Submissions are closed"
-=======
                 targetDate="October 13 2020 9:00:00 PDT"
                 inactiveMessage="Countdown to Nerd Days"
->>>>>>> c61e591b74b164ef37c35619620ec768cb26797b
               />
               <p>
                 <Button

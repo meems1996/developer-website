@@ -49,7 +49,7 @@ const CountdownContainer = ({ targetDate, inactiveMessage }) => {
 
     return () => clearInterval(interval);
   }, [targetDate]);
-  
+
   return (
     <div className={styles.container}>
       {active ? (
