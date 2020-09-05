@@ -72,6 +72,10 @@
         "url": "/build-apps/publish-deploy"
       },
       {
+        "displayName": "Permissions for managing apps",
+        "url": "/build-apps/permission-manage-apps"
+      },
+      {
         "displayName": "Map pageviews by region",
         "url": "/build-apps/map-pageviews-by-region"
       },
@@ -517,11 +521,25 @@
     ]
   },
   {
-    "displayName": "Attend events",
+    "displayName": "Developer events",
+    "url": "/developer-events",
     "children": [
       {
-        "displayName": "Kubecon & CloudNativeCon",
-        "url": "/kubecon-europe-2020"
+        "displayName": "Nerd days 1.0",
+        "url": "/nerd-days"
+      },
+      {
+        "displayName": "All things open",
+        "url": "/all-things-open"
+      },
+      {
+        "displayName": "Past events",
+        "children": [
+          {
+            "displayName": "Kubecon & CloudNativeCon",
+            "url": "/kubecon-europe-2020"
+          }
+        ]
       }
     ]
   },

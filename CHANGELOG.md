@@ -1,3 +1,83 @@
+# [1.17.0](https://github.com/newrelic/developer-website/compare/v1.16.0...v1.17.0) (2020-09-04)
+
+
+### Bug Fixes
+
+* bump gatsby-theme-newrelic version ([92db2ef](https://github.com/newrelic/developer-website/commit/92db2efde93fdf5cd835a67026d1c337b5c93643))
+
+
+### Features
+
+* add a useTreatment hook ([e9c8aac](https://github.com/newrelic/developer-website/commit/e9c8aac6ea9e67027c9a81c20297dc487842d10f))
+* load treatments from split for contribute buttons ([cd9007f](https://github.com/newrelic/developer-website/commit/cd9007fed977f018e5092de1f9f72222c20329ee))
+
+# [1.16.0](https://github.com/newrelic/developer-website/compare/v1.15.3...v1.16.0) (2020-09-03)
+
+
+### Bug Fixes
+
+* add back editUrl prop for global header ([1456db6](https://github.com/newrelic/developer-website/commit/1456db69d113f9fca57d406edd74d9e1ebcca641))
+* bump gatsby-theme-newrelic version ([be79f72](https://github.com/newrelic/developer-website/commit/be79f729f7d39e432ef14e4742dd725f05f69480))
+* fix lint errors ([4e54a71](https://github.com/newrelic/developer-website/commit/4e54a716d7bc542ff2719d790788c0d91ca299af))
+* upgrade gatsby-theme-newrelic ([666450b](https://github.com/newrelic/developer-website/commit/666450be72c11071411839017fc91a7d6a720c7e))
+
+
+### Features
+
+* add splitio configuration ([04a6765](https://github.com/newrelic/developer-website/commit/04a6765abdbe5a31025fcecdcab8ff4875916af7))
+
+## [1.15.3](https://github.com/newrelic/developer-website/compare/v1.15.2...v1.15.3) (2020-09-02)
+
+
+### Bug Fixes
+
+* fix lint errors preventing pushes ([9c600d7](https://github.com/newrelic/developer-website/commit/9c600d7e196a164300328c498664735637118b78))
+* lint warnings in countdown container ([ca14b49](https://github.com/newrelic/developer-website/commit/ca14b49f5a4575ed95655a7edcd810c5ac92730c))
+
+## [1.15.2](https://github.com/newrelic/developer-website/compare/v1.15.1...v1.15.2) (2020-08-31)
+
+
+### Bug Fixes
+
+* upgrade react-shadow from 18.2.4 to 18.2.5 ([b1bdae6](https://github.com/newrelic/developer-website/commit/b1bdae62914ca03af2f969dc9ba91a03229d8ab3))
+
+## [1.15.1](https://github.com/newrelic/developer-website/compare/v1.15.0...v1.15.1) (2020-08-29)
+
+
+### Bug Fixes
+
+* upgrade gatsby-plugin-mdx from 1.2.33 to 1.2.34 ([68b028d](https://github.com/newrelic/developer-website/commit/68b028d898f7349db3fc12517b93d6c1c2e9d883))
+
+# [1.15.0](https://github.com/newrelic/developer-website/compare/v1.14.2...v1.15.0) (2020-08-25)
+
+
+### Bug Fixes
+
+* change File an issue to Create an issue and adjust right-rail size ([0bda7c0](https://github.com/newrelic/developer-website/commit/0bda7c0762393ee3f3717a5b8382adc9d7655986))
+* replace collect data tile icon with new collect data icon ([a290263](https://github.com/newrelic/developer-website/commit/a290263374fd3966f1d0732c24f41ce8f2e3d1e8))
+
+
+### Features
+
+* hook up Developer Events sidenav to landing page ([861e3c7](https://github.com/newrelic/developer-website/commit/861e3c7f9216066b347c8aa4732738a86049d26e))
+
+## [1.14.2](https://github.com/newrelic/developer-website/compare/v1.14.1...v1.14.2) (2020-08-25)
+
+
+### Bug Fixes
+
+* upgrade gatsby-plugin-mdx from 1.2.30 to 1.2.33 ([7c3da52](https://github.com/newrelic/developer-website/commit/7c3da520ae270f3da369908e7751ef0e9be09f46))
+
+## [1.14.1](https://github.com/newrelic/developer-website/compare/v1.14.0...v1.14.1) (2020-08-24)
+
+
+### Bug Fixes
+
+* add link to pdf overview ([a166d33](https://github.com/newrelic/developer-website/commit/a166d335d4763e8340e225d28adfd1d9004bbf7f))
+* codee clean up before merge ([ef7a2cc](https://github.com/newrelic/developer-website/commit/ef7a2cc3aace2354dc55a93e12dd789ebba7f429))
+* correct prettier errors ([f2c7569](https://github.com/newrelic/developer-website/commit/f2c7569f5f9b6a689b43e33231ceb09d6854a2dd))
+* update CFP date and reg text ([065f688](https://github.com/newrelic/developer-website/commit/065f6886634e9b09fb432ef61ce0edda3c1688a0))
+
 # [1.14.0](https://github.com/newrelic/developer-website/compare/v1.13.11...v1.14.0) (2020-08-21)
 
 

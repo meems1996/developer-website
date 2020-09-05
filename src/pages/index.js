@@ -11,6 +11,8 @@ import GuideTile from '../components/GuideTile/GuideTile';
 import PageLayout from '../components/PageLayout';
 import FeatherIcon from '../components/FeatherIcon';
 import ExternalLink from '../components/ExternalLink';
+import CollectDataIcon from '../components/CollectDataIcon';
+import NewRelicIcon from '../components/NewRelicIcon';
 import { PageContext } from '../components/PageContext';
 import { pageContext } from '../types';
 import styles from './index.module.scss';
@@ -26,21 +28,21 @@ const getStartedGuides = [
     description:
       'Define, visualize, and get alerts on the data you want using custom events',
     path: '/collect-data/custom-events',
-    icon: 'collectData',
+    icon: <CollectDataIcon />,
   },
   {
     duration: '7 min',
     title: 'Add tags to apps',
     description: `Add tags to applications you instrument for easier filtering and organization`,
     path: '/automate-workflows/5-mins-tag-resources',
-    icon: 'automation',
+    icon: <NewRelicIcon name="automation" />,
   },
   {
     duration: '12 min',
     title: 'Build a Hello, World! app',
     description: `Build a Hello, World! app and publish it to your local New Relic One Catalog`,
     path: '/build-apps/build-hello-world-app',
-    icon: 'buildApps',
+    icon: <NewRelicIcon name="buildApps" />,
   },
 ];
 
@@ -74,24 +76,23 @@ const IndexPage = ({ data, pageContext }) => {
                 getting your hands on the software to solve problems
                 efficiently.
               </p>
-              <p>
-                Got a cool project you want to share with fellow engineers?
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSe8LOilCrD_TCUPyHFHG_QzVW2UdUR0UKZ8H8WNylz0flB7OQ/viewform"
-                >
-                  {' '}
-                  Submit your proposal!
-                </a>{' '}
-                Submissions are due September 1, 2020 at 11:59 PM PT.
-              </p>
               <Countdown
+<<<<<<< HEAD
                 targetDate="August 30 2020 13:35:00"
                 inactiveMessage="Submissions are closed"
+=======
+                targetDate="October 13 2020 9:00:00 PDT"
+                inactiveMessage="Countdown to Nerd Days"
+>>>>>>> c61e591b74b164ef37c35619620ec768cb26797b
               />
               <p>
-                <Link to="/nerd-days">Learn more</Link>
+                <Button
+                  as={Link}
+                  to="/nerd-days"
+                  variant={Button.VARIANT.PRIMARY}
+                >
+                  Register
+                </Button>
               </p>
             </div>
             <div
